@@ -93,11 +93,11 @@ class Splash extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: Colors.black,
                         borderRadius: BorderRadius.circular(25),
-                        border: Border.all(color: Colors.white),
+                        // border: Border.all(color: Colors.white),
                         boxShadow: const [
                           BoxShadow(
                             offset: Offset(0, 2),
-                            color: Colors.white,
+                            color: Colors.black,
                             blurRadius: 3,
                           ),
                         ],
